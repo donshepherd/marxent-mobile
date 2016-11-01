@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickSolutions(View view) {
 
-        showSolutionsAlertDialog();
+        buildSolutionsAlertDialog();
 
         SolutionAsyncTask jsonAsynTask = new SolutionAsyncTask() {
             @Override
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(browseIntent);
     }
 
-    private void showSolutionsAlertDialog() {
+    private void buildSolutionsAlertDialog() {
         AlertDialog.Builder alertBuilder = new AlertDialog.Builder(MainActivity.this);
         alertBuilder.setCancelable(true)
                 .setMessage("Loading Solutions...")
