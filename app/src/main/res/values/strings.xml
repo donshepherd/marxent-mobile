@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Marxent Mobile Demo</string>
+    <string name="solutions">Solutions</string>
+    <string name="videos">Videos</string>
+    <string name="about">About</string>
+    <string name="home_image_description"><![CDATA[Enterprise Virtual Reality & Augmented Reality Apps]]></string>
+    <string name="url_key">urlKey</string>
+    <string name="solution_key">urlKey</string>
+    <string name="about_url_path">http://www.marxentlabs.com/about-us/</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+</resources>
